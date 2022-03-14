@@ -20,7 +20,7 @@ export default function Home() {
   }
 
   return (
-    <form onSubmit={handleSubmit} className={styles.container}>
+    <form onSubmit={handleSubmit} className={styles.main}>
       <input
         type="email"
         value={email}
